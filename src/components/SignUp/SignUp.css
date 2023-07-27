@@ -1,0 +1,66 @@
+.signup{
+    background-image: url("https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1729&q=80");
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background-color: aqua;
+    padding: 30px;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.signuplogo{
+    width: 300px;
+    object-fit: contain;
+    padding: 10px 0px;
+}
+
+.loginpara{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0px 40px 20px 40px;
+}
+
+input{
+    padding: 4px;
+    margin: 3px 0px;
+    outline:none;
+    font-size: 16px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.form > div{
+    width : 80%;
+    margin: auto;
+}
+
+.submit-btn{
+    background-color: rgb(36, 173, 247);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    width : 80%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.form2{
+    background-color: aqua;
+    border-radius: 15px;
+    padding:30px;
+    margin-top: 5px;
+    border: 1px solid black;
+}

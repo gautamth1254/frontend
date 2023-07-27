@@ -1,0 +1,51 @@
+.signin{
+    background-image: url("https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1729&q=80");
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginform{
+    background-color: #ffffff4d;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.signinlogo{
+    width: 240px;
+    object-fit: contain;
+    padding: 10px 0px;
+}
+
+input{
+    padding: 4px;
+    margin: 3px 0px;
+    outline:none;
+    font-size: 16px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.loginform2{
+    background-color: #ffffff4d;
+    border-radius: 15px;
+    padding:30px;
+    margin-top: 5px;
+    border: 1px solid black;
+} 
+
+#login-btn{
+    background-color: rgb(36, 173, 247);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    
+    cursor: pointer;
+    margin-top: 10px;
+}
